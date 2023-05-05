@@ -1,0 +1,77 @@
+
+.topsection{
+   
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 2.5rem;
+    margin-left: 20px;
+    
+}
+.img{
+    width: 2.2rem;
+    padding: 0.3rem;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: .4rem;
+    background: transparent;
+}
+.close{
+    margin-right: 0rem;
+}
+.user{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgray;
+}
+.usericon{
+    display:flex;
+    height:4.5rem;
+    width:4.5rem;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.userdetails{
+    background-color: lightgray;
+}
+.userdetails>b{
+   font-weight: 700;
+   font-size:2rem;
+   margin-left: 30px;
+   background: none;
+}
+.userdetails>h5{
+    font-weight: 600;
+    font-size:2rem;
+    margin-left: 30px;
+    margin-top: 0%;
+    color:grey;
+    background: none;
+ }
+ .userdetails>p{
+   
+    font-size:1.2rem;
+    margin-left: 30px;
+    margin-top: -2.5rem;
+    color:grey;
+    background: none;
+    padding-bottom: 0.8rem;
+ }
+ .userdetails>p>b{
+    background: none;
+ }
+ .bottom{
+    display:flex
+ }
+ 
+ .bottom>span{
+    font-weight: 700;
+    font-size:2rem;
+    margin-left: 30px;
+    margin-top: 28px;
+ }

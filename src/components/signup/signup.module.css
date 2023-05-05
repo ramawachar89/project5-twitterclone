@@ -1,0 +1,134 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgb(255, 253, 253);
+  height: 100%;
+  width: 100%;
+  border-radius: 50px;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 253, 253);
+  
+}
+.image {
+  color: rgb(11, 109, 220);
+}
+.heading{
+  color: rgb(6, 5, 5);
+  font-size: 2rem;
+  font-weight: 900px;
+}
+
+.heading1 {
+  color: rgb(16, 14, 14);
+}
+
+.btn {
+  border: 2px rgb(116, 109, 109) solid;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  width: 300px;
+  font-weight: 800px;
+}
+.login {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  color: rgb(46, 46, 47);
+}
+.link {
+  text-decoration: none;
+  color: rgb(27, 123, 214);
+}
+.btn1 {
+  border: 2px rgb(116, 109, 109) solid;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  width: 300px;
+  font-size: 1rem;
+}
+.para {
+  width:80%;
+  display: flex;
+  align-items: center;
+  font-size:1rem;
+}
+.footer{
+  color: rgb(27, 123, 214);
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 780px) {
+  *{
+    background-color: white;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+  }
+  span{
+    font-size: 1.5rem;
+  }
+  .btn{
+    width:60%;
+  }
+  .mui{
+    margin-left:5px;
+  }
+  .para{
+    font-size: .75rem;
+  }
+  .footer{
+    font-size: .8rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0rem;
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    
+  }
+  .heading{
+    font-size: 1.5rem;
+  }
+  .btn,
+  .btn2
+  {
+    width:80%;
+  }
+  .mui{
+    margin-left:5px;
+  }
+  .para{
+    font-size: .75rem;
+  }
+  .footer{
+    font-size: .8rem;
+  }
+ 
+}
